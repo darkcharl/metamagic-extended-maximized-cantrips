@@ -1,0 +1,500 @@
+{
+  "ArmorAbsorption": 0,
+  "AttackFlags": 18,
+  "AttackRollAbility": "None",
+  "CauseType": "Attack",
+  "ConditionRolls": [
+    {
+      "Ability": "None",
+      "DataType": 0,
+      "Difficulty": 0,
+      "Roll": {
+        "Metadata": {
+          "AbilityBoosts": {
+            "Intelligence": 3
+          },
+          "AutoAbilityCheckFail": false,
+          "AutoAbilitySavingThrowFail": false,
+          "AutoSkillCheckFail": false,
+          "HasCustomMetadata": false,
+          "IsCritical": false,
+          "ProficiencyBonus": 2,
+          "ResolvedRollBonuses": [],
+          "ResolvedUnknowns": [
+            {
+              "Description": {
+                "ArgumentString": {
+                  "Handle": "ls::TranslatedStringRepository::s_HandleUnknown",
+                  "Version": 0
+                },
+                "Handle": {
+                  "Handle": "h181f9246g612ag484cg99c2g57ca3e4ffcb5",
+                  "Version": 3
+                }
+              },
+              "field_0": 2
+            },
+            {
+              "Description": {
+                "ArgumentString": {
+                  "Handle": "ls::TranslatedStringRepository::s_HandleUnknown",
+                  "Version": 0
+                },
+                "Handle": {
+                  "Handle": "h181f9246g612ag484cg99c2g57ca3e4ffcb5",
+                  "Version": 3
+                }
+              },
+              "field_0": 2
+            },
+            {
+              "Description": {
+                "ArgumentString": {
+                  "Handle": "ls::TranslatedStringRepository::s_HandleUnknown",
+                  "Version": 0
+                },
+                "Handle": {
+                  "Handle": "h181f9246g612ag484cg99c2g57ca3e4ffcb5",
+                  "Version": 3
+                }
+              },
+              "field_0": 1
+            },
+            {
+              "Description": {
+                "ArgumentString": {
+                  "Handle": "ls::TranslatedStringRepository::s_HandleUnknown",
+                  "Version": 0
+                },
+                "Handle": {
+                  "Handle": "h181f9246g612ag484cg99c2g57ca3e4ffcb5",
+                  "Version": 3
+                }
+              },
+              "field_0": 2
+            },
+            {
+              "Description": {
+                "ArgumentString": {
+                  "Handle": "ls::TranslatedStringRepository::s_HandleUnknown",
+                  "Version": 0
+                },
+                "Handle": {
+                  "Handle": "h84fdac7ag5a95g4353g89afga173c248e384",
+                  "Version": 2
+                }
+              },
+              "field_0": -5
+            }
+          ],
+          "RollBonus": 2,
+          "SkillBonuses": {},
+          "field_10": 0,
+          "field_14": 779384933,
+          "field_8": 0
+        },
+        "Result": {
+          "Critical": "None",
+          "DiceSize": 18,
+          "DiscardedDiceTotal": 15,
+          "NaturalRoll": 11,
+          "Total": 18,
+          "field_14": 1,
+          "field_18": []
+        },
+        "Roll": {
+          "Advantage": false,
+          "Disadvantage": false,
+          "Roll": {
+            "AmountOfDices": 1,
+            "DiceAdditionalValue": 7,
+            "DiceValue": "D20",
+            "field_8": 0
+          },
+          "RollType": "RangedSpellAttack",
+          "field_10": []
+        }
+      },
+      "RollType": ["AttackRoll"],
+      "Skill": "Sentinel",
+      "field_120": "16a66498-e2b0-441a-1609-3c5cbfb58bdc",
+      "field_130": false
+    }
+  ],
+  "DamageList": [
+    {
+      "Amount": 10,
+      "DamageType": "Cold"
+    }
+  ],
+  "DamageType": "Cold",
+  "DeathType": "Cold",
+  "EffectFlags": 577,
+  "HitDescFlags": 1,
+  "HitWith": "Magic",
+  "ImpactDirection": [
+    -0.9997132420539856, 0.014949915930628777, -0.018705569207668304
+  ],
+  "ImpactForce": 0.0,
+  "ImpactPosition": [
+    48.257308959960938, 18.370431900024414, -422.27096557617188
+  ],
+  "Inflicter": "Entity (0200000100000076)",
+  "InflicterOwner": "Entity (0200000100000076)",
+  "LifeSteal": 0,
+  "OriginalDamageValue": 0,
+  "Results": {
+    "AdditionalDamage": 0,
+    "ConditionRoll": {
+      "DamageTypeIndex": 0,
+      "DamageTypeParams": ["Cold"],
+      "IntIndex": 0,
+      "IntParams": [],
+      "RollIndex": 0,
+      "RollParams": [
+        {
+          "Metadata": {
+            "AbilityBoosts": {},
+            "AutoAbilityCheckFail": false,
+            "AutoAbilitySavingThrowFail": false,
+            "AutoSkillCheckFail": false,
+            "HasCustomMetadata": false,
+            "IsCritical": false,
+            "ProficiencyBonus": 0,
+            "ResolvedRollBonuses": [],
+            "ResolvedUnknowns": [],
+            "RollBonus": 0,
+            "SkillBonuses": {},
+            "field_10": 0,
+            "field_14": -836372924,
+            "field_8": 0
+          },
+          "Result": {
+            "Critical": "None",
+            "DiceSize": 0,
+            "DiscardedDiceTotal": 0,
+            "NaturalRoll": 1,
+            "Total": 1,
+            "field_14": 0,
+            "field_18": []
+          },
+          "Roll": {
+            "Advantage": false,
+            "Disadvantage": false,
+            "Roll": {
+              "AmountOfDices": 1,
+              "DiceAdditionalValue": 0,
+              "DiceValue": "D8",
+              "field_8": 0
+            },
+            "RollType": "Sentinel",
+            "field_10": []
+          }
+        }
+      ],
+      "StatExpression": "LevelMapValue(D8Cantrip)"
+    },
+    "DamageRolls": {},
+    "FinalDamage": 10,
+    "FinalDamagePerType": {
+      "Cold": 10
+    },
+    "Modifiers": [],
+    "Modifiers2": [
+      {
+        "Argument": {
+          "DamageTypeIndex": 0,
+          "DamageTypeParams": ["Cold"],
+          "IntIndex": 0,
+          "IntParams": [],
+          "RollIndex": 0,
+          "RollParams": [
+            {
+              "Metadata": {
+                "AbilityBoosts": {},
+                "AutoAbilityCheckFail": false,
+                "AutoAbilitySavingThrowFail": false,
+                "AutoSkillCheckFail": false,
+                "HasCustomMetadata": false,
+                "IsCritical": false,
+                "ProficiencyBonus": 0,
+                "ResolvedRollBonuses": [],
+                "ResolvedUnknowns": [],
+                "RollBonus": 0,
+                "SkillBonuses": {},
+                "field_10": 0,
+                "field_14": 1950970697,
+                "field_8": 0
+              },
+              "Result": {
+                "Critical": "None",
+                "DiceSize": 8,
+                "DiscardedDiceTotal": 0,
+                "NaturalRoll": 2,
+                "Total": 2,
+                "field_14": 1,
+                "field_18": []
+              },
+              "Roll": {
+                "Advantage": false,
+                "Disadvantage": false,
+                "Roll": {
+                  "AmountOfDices": 1,
+                  "DiceAdditionalValue": 0,
+                  "DiceValue": "D8",
+                  "field_8": 0
+                },
+                "RollType": "RangedSpellDamage",
+                "field_10": []
+              }
+            }
+          ],
+          "StatExpression": "1d8"
+        },
+        "DamageType": "Cold",
+        "Description": {
+          "ArgumentString": {
+            "Handle": "ls::TranslatedStringRepository::s_HandleUnknown",
+            "Version": 0
+          },
+          "Handle": {
+            "Handle": "h84fdac7ag5a95g4353g89afga173c248e384",
+            "Version": 2
+          }
+        },
+        "Description2": "MAG_Arcanist_Gloves_Passive",
+        "MetadataType": 5,
+        "SourceType": 2,
+        "Value": 2
+      },
+      {
+        "Argument": {
+          "DamageTypeIndex": 0,
+          "DamageTypeParams": ["Cold"],
+          "IntIndex": 0,
+          "IntParams": [],
+          "RollIndex": 0,
+          "RollParams": [
+            {
+              "Metadata": {
+                "AbilityBoosts": {},
+                "AutoAbilityCheckFail": false,
+                "AutoAbilitySavingThrowFail": false,
+                "AutoSkillCheckFail": false,
+                "HasCustomMetadata": true,
+                "IsCritical": false,
+                "ProficiencyBonus": 0,
+                "ResolvedRollBonuses": [],
+                "ResolvedUnknowns": [],
+                "RollBonus": 0,
+                "SkillBonuses": {},
+                "field_10": 0,
+                "field_14": 2116430120,
+                "field_8": 0
+              },
+              "Result": {
+                "Critical": "None",
+                "DiceSize": 2645073408,
+                "DiscardedDiceTotal": 0,
+                "NaturalRoll": 0,
+                "Total": 3,
+                "field_14": 0,
+                "field_18": []
+              },
+              "Roll": {
+                "Advantage": false,
+                "Disadvantage": false,
+                "Roll": {
+                  "AmountOfDices": 0,
+                  "DiceAdditionalValue": 3,
+                  "DiceValue": "D20",
+                  "field_8": 0
+                },
+                "RollType": "Sentinel",
+                "field_10": []
+              }
+            }
+          ],
+          "StatExpression": "SpellCastingAbilityModifier"
+        },
+        "DamageType": "Cold",
+        "Description": {
+          "ArgumentString": {
+            "Handle": "ls::TranslatedStringRepository::s_HandleUnknown",
+            "Version": 0
+          },
+          "Handle": {
+            "Handle": "7a740a93-d946-420d-8f98-25ba219b01c1",
+            "Version": 1
+          }
+        },
+        "Description2": "CantripMastery",
+        "MetadataType": 5,
+        "SourceType": 2,
+        "Value": 3
+      },
+      {
+        "Argument": {
+          "DamageTypeIndex": 0,
+          "DamageTypeParams": ["Cold"],
+          "IntIndex": 0,
+          "IntParams": [0],
+          "RollIndex": 0,
+          "RollParams": [
+            {
+              "Metadata": {
+                "AbilityBoosts": {},
+                "AutoAbilityCheckFail": false,
+                "AutoAbilitySavingThrowFail": false,
+                "AutoSkillCheckFail": false,
+                "HasCustomMetadata": false,
+                "IsCritical": false,
+                "ProficiencyBonus": 0,
+                "ResolvedRollBonuses": [],
+                "ResolvedUnknowns": [],
+                "RollBonus": 0,
+                "SkillBonuses": {},
+                "field_10": 0,
+                "field_14": 2116430120,
+                "field_8": 0
+              },
+              "Result": {
+                "Critical": "None",
+                "DiceSize": 20,
+                "DiscardedDiceTotal": 0,
+                "NaturalRoll": 0,
+                "Total": 1,
+                "field_14": 1,
+                "field_18": []
+              },
+              "Roll": {
+                "Advantage": false,
+                "Disadvantage": false,
+                "Roll": {
+                  "AmountOfDices": 0,
+                  "DiceAdditionalValue": 1,
+                  "DiceValue": "D20",
+                  "field_8": 0
+                },
+                "RollType": "RangedSpellDamage",
+                "field_10": []
+              }
+            }
+          ],
+          "StatExpression": "max(1,CharismaModifier)"
+        },
+        "DamageType": "Cold",
+        "Description": {
+          "ArgumentString": {
+            "Handle": "ls::TranslatedStringRepository::s_HandleUnknown",
+            "Version": 0
+          },
+          "Handle": {
+            "Handle": "h1a478e3cg6b90g439fgb50fg113a8b8a3e44",
+            "Version": 1
+          }
+        },
+        "Description2": "MAG_CharismaCaster_CantripBooster_Passive",
+        "MetadataType": 5,
+        "SourceType": 2,
+        "Value": 1
+      },
+      {
+        "Argument": {
+          "DamageTypeIndex": 0,
+          "DamageTypeParams": ["Cold"],
+          "IntIndex": 0,
+          "IntParams": [1],
+          "RollIndex": 0,
+          "RollParams": [
+            {
+              "Metadata": {
+                "AbilityBoosts": {},
+                "AutoAbilityCheckFail": false,
+                "AutoAbilitySavingThrowFail": false,
+                "AutoSkillCheckFail": false,
+                "HasCustomMetadata": true,
+                "IsCritical": false,
+                "ProficiencyBonus": 0,
+                "ResolvedRollBonuses": [],
+                "ResolvedUnknowns": [],
+                "RollBonus": 0,
+                "SkillBonuses": {},
+                "field_10": 0,
+                "field_14": 2116430120,
+                "field_8": 0
+              },
+              "Result": {
+                "Critical": "None",
+                "DiceSize": 3,
+                "DiscardedDiceTotal": 0,
+                "NaturalRoll": 0,
+                "Total": 3,
+                "field_14": 0,
+                "field_18": []
+              },
+              "Roll": {
+                "Advantage": false,
+                "Disadvantage": false,
+                "Roll": {
+                  "AmountOfDices": 0,
+                  "DiceAdditionalValue": 3,
+                  "DiceValue": "D20",
+                  "field_8": 0
+                },
+                "RollType": "Sentinel",
+                "field_10": []
+              }
+            }
+          ],
+          "StatExpression": "max(1,SpellCastingAbilityModifier)"
+        },
+        "DamageType": "Cold",
+        "Description": {
+          "ArgumentString": {
+            "Handle": "ls::TranslatedStringRepository::s_HandleUnknown",
+            "Version": 0
+          },
+          "Handle": {
+            "Handle": "hc4ad4d92gba57g4cecgbb82g5b31a68306e9",
+            "Version": 2
+          }
+        },
+        "Description2": "MAG_ElementalGish_CantripBooster_Amulet_Passive",
+        "MetadataType": 5,
+        "SourceType": 2,
+        "Value": 3
+      }
+    ],
+    "Resistances": [],
+    "TotalDamage": 10,
+    "TotalDamagePerType": {
+      "Cold": 10
+    },
+    "field_D0": 1,
+    "field_D4": 1,
+    "field_D8": 1,
+    "field_DC": 0
+  },
+  "SaveAbility": "None",
+  "SpellCastGuid": "3f9c0125-bc06-7bb4-a4bd-49283c9df705",
+  "SpellId": "Projectile_RayOfFrost",
+  "SpellLevel": 0,
+  "SpellPowerLevel": 0,
+  "SpellSchool": "Evocation",
+  "StoryActionId": 16,
+  "Throwing": null,
+  "TotalDamageDone": 10,
+  "TotalHealDone": 0,
+  "field_150": "",
+  "field_158": null,
+  "field_160": 0,
+  "field_174": 0,
+  "field_178": 0,
+  "field_17C": 0,
+  "field_180": 0,
+  "field_184": 0,
+  "field_188": 0,
+  "field_190": [],
+  "field_4F": 7
+}
